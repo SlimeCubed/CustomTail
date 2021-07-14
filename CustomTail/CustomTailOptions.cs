@@ -44,7 +44,7 @@ namespace CustomTail
     {
         private OpTextBox[] _sprites;
 
-        public CustomTailOptions(PartialityMod mod) : base(mod)
+        public CustomTailOptions(PartialityMod mod) : base(mod: mod)
         {}
 
         public override void Initialize()

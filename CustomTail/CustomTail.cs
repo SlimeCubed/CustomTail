@@ -63,7 +63,7 @@ namespace CustomTail
             // Edit the tail sprite
             // Note that, while it is a mesh, meshes inherit from FSprite, so it's still a sprite :)
             TriangleMesh tail = null;
-            for(int i = sLeaser.sprites.Length - 1; i >= 0; i--)
+            for(int i = 0; i < sLeaser.sprites.Length; i++)
             {
                 if(sLeaser.sprites[i] is TriangleMesh tm)
                 {
