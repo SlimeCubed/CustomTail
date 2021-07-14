@@ -14,7 +14,7 @@ namespace CustomTail
         public CustomTail()
         {
             ModID = "Custom Tail";
-            Version = "1.1";
+            Version = "1.2";
             author = "Slime_Cubed";
         }
 
